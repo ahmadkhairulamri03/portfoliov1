@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Responsive Styles (Media Queries)
+   Breakpoints: 576px, 768px, 992px, 1200px, 1400px
+   ========================================================================== */
+
+/* ----------------------------------------------------
+   Breakpoint: 576px (Small Devices)
+---------------------------------------------------- */
+@media (min-width: 576px) {
+  /* About Card Layout */
+  .about__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Portfolio Grid Layouts */
+  .portfolio__skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__certificates-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ----------------------------------------------------
+   Breakpoint: 768px (Medium Devices - Tablets)
+---------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Navbar */
+  .navbar__menu {
+    display: flex;
+  }
+
+  .navbar__button {
+    display: block;
+  }
+
+  .navbar__toggle {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding-top: 192px; /* md:pt-48 */
+    padding-bottom: var(--spacing-section-desktop);
+  }
+
+  .hero__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__content {
+    order: 1;
+  }
+
+  .hero__image-wrapper {
+    order: 2;
+  }
+
+  .hero__title {
+    font-size: var(--fs-display-xl);
+    line-height: var(--lh-display-xl);
+  }
+
+  /* About Section */
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Portfolio Projects Grid */
+  .portfolio__projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact Form */
+  .contact__form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Footer Layout */
+  .footer__top {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .footer__links-wrapper {
+    justify-items: center;
+  }
+
+  .footer__bottom {
+    flex-direction: row;
+  }
+
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+/* ----------------------------------------------------
+   Breakpoint: 992px (Large Devices - Small Laptops)
+---------------------------------------------------- */
+@media (min-width: 992px) {
+  /* Portfolio Grid Columns */
+  .portfolio__projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .portfolio__skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .portfolio__certificates-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Contact Section */
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ----------------------------------------------------
+   Breakpoint: 1200px (Extra Large - Laptops)
+---------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* Additional layout alignments for xl screens */
+}
+
+/* ----------------------------------------------------
+   Breakpoint: 1400px (Double Extra Large - Desktops)
+---------------------------------------------------- */
+@media (min-width: 1400px) {
+  /* Page wrapper or layout scaling if required */
+}
