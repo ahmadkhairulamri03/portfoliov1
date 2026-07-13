@@ -61,21 +61,21 @@
   /* Font Family */
   --font-family: 'Inter', sans-serif;
   
-  /* Font Sizes & Typography Rules */
-  --fs-display-xl: 64px;
-  --lh-display-xl: 72px;
+  /* Font Sizes & Typography Rules (Mobile First) */
+  --fs-display-xl: 36px;
+  --lh-display-xl: 44px;
   --fw-display-xl: 800;
   
-  --fs-headline-lg: 48px;
-  --lh-headline-lg: 56px;
+  --fs-headline-lg: 32px;
+  --lh-headline-lg: 40px;
   --fw-headline-lg: 700;
   
-  --fs-headline-md: 32px;
-  --lh-headline-md: 40px;
+  --fs-headline-md: 24px;
+  --lh-headline-md: 32px;
   --fw-headline-md: 700;
   
-  --fs-body-lg: 18px;
-  --lh-body-lg: 28px;
+  --fs-body-lg: 16px;
+  --lh-body-lg: 24px;
   --fw-body-lg: 400;
   
   --fs-body-md: 16px;
@@ -86,14 +86,46 @@
   --lh-label-bold: 20px;
   --fw-label-bold: 600;
 
-  /* Spacing */
+  --fs-subtitle: 16px;
+
+  /* Spacing System */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+
   --spacing-base: 4px;
-  --spacing-section-desktop: 120px;
-  --spacing-section-mobile: 64px;
-  --spacing-gutter: 24px;
-  --spacing-margin-mobile: 16px;
+  --spacing-section-mobile: var(--space-64);
+  --spacing-section-desktop: var(--space-96);
+  --spacing-margin-mobile: 20px; /* Mobile container padding 20px */
   --container-max: 1280px;
 
   /* Animation transition speed */
   --transition-default: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-display-xl: 48px;
+    --lh-display-xl: 56px;
+    --spacing-margin-mobile: 32px; /* Tablet container padding 32px */
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --fs-display-xl: 64px;
+    --lh-display-xl: 72px;
+    --fs-headline-lg: 48px;
+    --lh-headline-lg: 56px;
+    --fs-headline-md: 32px;
+    --lh-headline-md: 40px;
+    --fs-body-lg: 18px;
+    --lh-body-lg: 28px;
+    --fs-subtitle: 20px;
+    --spacing-margin-mobile: 80px; /* Desktop container padding 80px */
+  }
 }
