@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="Ahmad Khairul Amri - Portfolio. Full Stack Web Developer berpengalaman membangun website modern dan solusi digital inovatif." />
+    <meta name="description"
+        content="Ahmad Khairul Amri - Portfolio. Full Stack Web Developer berpengalaman membangun website modern dan solusi digital inovatif." />
     <title>Ahmad Amri | Full Stack Web Developer</title>
-    
+
     <!-- Google Fonts Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
     <!-- Font Awesome 6 Free for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Custom CSS Modules -->
     <link rel="stylesheet" href="assets/css/variables.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
+
 <body>
 
     <!-- Header Navigation -->
@@ -26,7 +32,7 @@
         <nav class="navbar" id="navbar">
             <div class="container navbar__container">
                 <a class="navbar__logo" href="#">Ahmad Amri</a>
-                
+
                 <!-- Desktop Navigation Links -->
                 <div class="navbar__menu">
                     <a class="navbar__link navbar__link--active" href="#home">Home</a>
@@ -35,17 +41,17 @@
                     <a class="navbar__link" href="#experience">Experience</a>
                     <a class="navbar__link" href="#contact">Contact</a>
                 </div>
-                
+
                 <!-- Call To Action Button -->
                 <a class="navbar__button" href="#">Download CV</a>
-                
+
                 <!-- Mobile Navigation Toggle Button -->
                 <button class="navbar__toggle" id="navbar-toggle" aria-label="Toggle mobile menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
         </nav>
-        
+
         <!-- Mobile Navigation Overlay & Drawer -->
         <div class="mobile-nav__overlay" id="mobile-nav-overlay"></div>
         <div class="mobile-nav" id="mobile-nav">
@@ -95,13 +101,13 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="hero__image-wrapper">
                     <div class="hero__image-bg"></div>
                     <div class="hero__image-container">
                         <img class="hero__image" alt="Ahmad Khairul Amri Portrait" src="assets/images/profile.jpg" />
                     </div>
-                    
+
                     <!-- Floating Tech Cards -->
                     <div class="hero__badge-card hero__badge-card--1 floating-anim">
                         <div class="hero__badge-icon hero__badge-icon--html">HTML</div>
@@ -128,23 +134,25 @@
             <div class="container about__container">
                 <div class="about__image-wrapper">
                     <div class="about__image-container">
-                        <img class="about__image" alt="Minimalist Workspace Setup" src="assets/images/workspace.jpg" loading="lazy" />
+                        <img class="about__image" alt="Minimalist Workspace Setup" src="assets/images/workspace.jpg"
+                            loading="lazy" />
                     </div>
                     <div class="about__experience-card">
                         <h4 class="about__experience-title">5+</h4>
                         <p class="about__experience-text">Tahun Pengalaman dalam Pengembangan Web</p>
                     </div>
                 </div>
-                
+
                 <div class="about__content">
                     <h3 class="about__subtitle">Tentang Saya</h3>
                     <h2 class="about__title">Membangun Jembatan Antara Ide dan Realitas Digital</h2>
                     <p class="about__description">
-                        Saya adalah seorang Full Stack Web Developer yang berdedikasi untuk menciptakan solusi digital yang
+                        Saya adalah seorang Full Stack Web Developer yang berdedikasi untuk menciptakan solusi digital
+                        yang
                         efisien dan estetis. Dengan pengalaman luas dalam teknologi frontend dan backend, saya membantu
                         bisnis bertransformasi di era digital.
                     </p>
-                    
+
                     <!-- Core Strengths -->
                     <div class="about__cards">
                         <div class="about__card">
@@ -160,7 +168,7 @@
                             <h4 class="about__card-title">Problem Solver</h4>
                         </div>
                     </div>
-                    
+
                     <!-- Bio Details -->
                     <div class="about__details">
                         <div class="about__detail-item">
@@ -190,7 +198,7 @@
                 <div class="portfolio__header">
                     <h3 class="portfolio__subtitle">Showcase</h3>
                     <h2 class="portfolio__title">Karya &amp; Keahlian Terpilih</h2>
-                    
+
                     <!-- Tab Controls -->
                     <div class="portfolio__tabs">
                         <button class="portfolio__tab-btn portfolio__tab-btn--active" id="btn-projects">Project</button>
@@ -198,15 +206,16 @@
                         <button class="portfolio__tab-btn" id="btn-certificates">Certificate</button>
                     </div>
                 </div>
-                
+
                 <!-- Tab: Projects -->
                 <div class="portfolio__tab-content portfolio__tab-content--active" id="projects">
                     <div class="portfolio__projects-grid">
-                        
+
                         <!-- Project Card 1 -->
                         <div class="project-card">
                             <div class="project-card__image-wrapper">
-                                <img class="project-card__image" alt="E-Commerce Enterprise System Screenshot" src="assets/images/project-ecommerce.jpg" loading="lazy" />
+                                <img class="project-card__image" alt="E-Commerce Enterprise System Screenshot"
+                                    src="assets/images/project-ecommerce.jpg" loading="lazy" />
                                 <div class="project-card__overlay">
                                     <a class="project-card__overlay-link" href="#" aria-label="Demo Link">
                                         <i class="fa-solid fa-link"></i>
@@ -222,7 +231,9 @@
                                     <span class="project-card__tag">Tailwind</span>
                                 </div>
                                 <h4 class="project-card__title">E-Commerce Enterprise System</h4>
-                                <p class="project-card__description">Sistem perdagangan elektronik lengkap dengan manajemen inventaris, integrasi payment gateway, dan pelacakan pesanan real-time.</p>
+                                <p class="project-card__description">Sistem perdagangan elektronik lengkap dengan
+                                    manajemen inventaris, integrasi payment gateway, dan pelacakan pesanan real-time.
+                                </p>
                                 <div class="project-card__footer">
                                     <span class="project-card__type">Web App</span>
                                     <a class="project-card__link" href="#">
@@ -235,7 +246,8 @@
                         <!-- Project Card 2 -->
                         <div class="project-card">
                             <div class="project-card__image-wrapper">
-                                <img class="project-card__image" alt="Digital Wallet Solution Screenshot" src="assets/images/project-wallet.jpg" loading="lazy" />
+                                <img class="project-card__image" alt="Digital Wallet Solution Screenshot"
+                                    src="assets/images/project-wallet.jpg" loading="lazy" />
                             </div>
                             <div class="project-card__content">
                                 <div class="project-card__tags">
@@ -243,7 +255,8 @@
                                     <span class="project-card__tag">Node.js</span>
                                 </div>
                                 <h4 class="project-card__title">Digital Wallet Solution</h4>
-                                <p class="project-card__description">Aplikasi keuangan terpusat untuk transfer instan, pembayaran tagihan, dan analitik pengeluaran pengguna yang canggih.</p>
+                                <p class="project-card__description">Aplikasi keuangan terpusat untuk transfer instan,
+                                    pembayaran tagihan, dan analitik pengeluaran pengguna yang canggih.</p>
                                 <div class="project-card__footer">
                                     <span class="project-card__type">Mobile &amp; Web</span>
                                     <a class="project-card__link" href="#">
@@ -256,7 +269,8 @@
                         <!-- Project Card 3 -->
                         <div class="project-card">
                             <div class="project-card__image-wrapper">
-                                <img class="project-card__image" alt="Property Marketplace Screenshot" src="assets/images/project-marketplace.jpg" loading="lazy" />
+                                <img class="project-card__image" alt="Property Marketplace Screenshot"
+                                    src="assets/images/project-marketplace.jpg" loading="lazy" />
                             </div>
                             <div class="project-card__content">
                                 <div class="project-card__tags">
@@ -264,7 +278,8 @@
                                     <span class="project-card__tag">Bootstrap</span>
                                 </div>
                                 <h4 class="project-card__title">Property Marketplace</h4>
-                                <p class="project-card__description">Platform real estate yang menghubungkan agen dengan pembeli, dilengkapi fitur pencarian pintar berdasarkan lokasi dan harga.</p>
+                                <p class="project-card__description">Platform real estate yang menghubungkan agen dengan
+                                    pembeli, dilengkapi fitur pencarian pintar berdasarkan lokasi dan harga.</p>
                                 <div class="project-card__footer">
                                     <span class="project-card__type">Marketplace</span>
                                     <a class="project-card__link" href="#">
@@ -280,7 +295,7 @@
                 <!-- Tab: Skills -->
                 <div class="portfolio__tab-content" id="skills">
                     <div class="portfolio__skills-grid">
-                        
+
                         <!-- Frontend Skills Card -->
                         <div class="skill-card">
                             <div class="skill-card__icon-wrapper skill-card__icon-wrapper--primary">
@@ -343,11 +358,12 @@
                 <!-- Tab: Certificates -->
                 <div class="portfolio__tab-content" id="certificates">
                     <div class="portfolio__certificates-grid">
-                        
+
                         <!-- Certificate Card 1 -->
                         <div class="certificate-card">
                             <div class="certificate-card__image-wrapper">
-                                <img class="certificate-card__image" alt="Google Cloud Professional Certificate" src="assets/images/cert-google.jpg" loading="lazy" />
+                                <img class="certificate-card__image" alt="Google Cloud Professional Certificate"
+                                    src="assets/images/cert-google.jpg" loading="lazy" />
                             </div>
                             <h5 class="certificate-card__title">Google Cloud Professional</h5>
                             <p class="certificate-card__issuer">Google Cloud Indonesia - 2023</p>
@@ -357,7 +373,8 @@
                         <!-- Certificate Card 2 -->
                         <div class="certificate-card">
                             <div class="certificate-card__image-wrapper">
-                                <img class="certificate-card__image" alt="Advanced Laravel Expert Certificate" src="assets/images/cert-laravel.jpg" loading="lazy" />
+                                <img class="certificate-card__image" alt="Advanced Laravel Expert Certificate"
+                                    src="assets/images/cert-laravel.jpg" loading="lazy" />
                             </div>
                             <h5 class="certificate-card__title">Advanced Laravel Expert</h5>
                             <p class="certificate-card__issuer">Udemy Certification - 2022</p>
@@ -367,7 +384,8 @@
                         <!-- Certificate Card 3 -->
                         <div class="certificate-card">
                             <div class="certificate-card__image-wrapper">
-                                <img class="certificate-card__image" alt="Fullstack Web Developer Certificate" src="assets/images/cert-fullstack.jpg" loading="lazy" />
+                                <img class="certificate-card__image" alt="Fullstack Web Developer Certificate"
+                                    src="assets/images/cert-fullstack.jpg" loading="lazy" />
                             </div>
                             <h5 class="certificate-card__title">Fullstack Web Developer</h5>
                             <p class="certificate-card__issuer">Dicoding Academy - 2021</p>
@@ -385,7 +403,7 @@
                 <div class="experience__header">
                     <h3 class="experience__subtitle">Perjalanan</h3>
                     <h2 class="experience__title">Karir &amp; Pendidikan</h2>
-                    
+
                     <!-- Tab Controls -->
                     <div class="experience__tabs">
                         <button class="experience__tab-btn experience__tab-btn--active" id="exp-btn-work">Kerja</button>
@@ -396,7 +414,7 @@
                 <!-- Timeline: Work -->
                 <div class="experience__content experience__content--active" id="work-timeline">
                     <div class="timeline">
-                        
+
                         <!-- Item 1 -->
                         <div class="timeline__item timeline__item--work">
                             <div class="timeline__card">
@@ -404,8 +422,10 @@
                                 <h4 class="timeline__title">Senior Web Developer</h4>
                                 <p class="timeline__subtitle">Tech Innovators Corp.</p>
                                 <ul class="timeline__list">
-                                    <li class="timeline__list-item">Memimpin pengembangan aplikasi ERP perusahaan berskala besar.</li>
-                                    <li class="timeline__list-item">Optimasi database yang meningkatkan kecepatan sistem hingga 40%.</li>
+                                    <li class="timeline__list-item">Memimpin pengembangan aplikasi ERP perusahaan
+                                        berskala besar.</li>
+                                    <li class="timeline__list-item">Optimasi database yang meningkatkan kecepatan sistem
+                                        hingga 40%.</li>
                                     <li class="timeline__list-item">Mentor untuk 5+ developer junior dalam tim.</li>
                                 </ul>
                             </div>
@@ -418,7 +438,8 @@
                                 <h4 class="timeline__title">Full Stack Developer</h4>
                                 <p class="timeline__subtitle">Creative Digital Agency</p>
                                 <p class="timeline__description">
-                                    Membangun lebih dari 20+ proyek klien dari berbagai industri menggunakan Laravel, Vue, dan AWS.
+                                    Membangun lebih dari 20+ proyek klien dari berbagai industri menggunakan Laravel,
+                                    Vue, dan AWS.
                                 </p>
                             </div>
                         </div>
@@ -429,7 +450,7 @@
                 <!-- Timeline: Education -->
                 <div class="experience__content" id="edu-timeline">
                     <div class="timeline">
-                        
+
                         <!-- Item 1 -->
                         <div class="timeline__item timeline__item--education">
                             <div class="timeline__card">
@@ -457,10 +478,10 @@
                         Siap memulai proyek baru atau sekadar ingin bertanya? Jangan ragu untuk menghubungi saya. Saya
                         selalu terbuka untuk diskusi menarik!
                     </p>
-                    
+
                     <!-- Contact Info Cards -->
                     <div class="contact__info-list">
-                        
+
                         <div class="contact__info-item">
                             <div class="contact__info-icon-wrapper">
                                 <i class="fa-solid fa-envelope"></i>
@@ -487,12 +508,12 @@
                             </div>
                             <div>
                                 <p class="contact__info-label">Alamat</p>
-                                <p class="contact__info-value">Jakarta Selatan, DKI Jakarta</p>
+                                <p class="contact__info-value">Jambi</p>
                             </div>
                         </div>
 
                     </div>
-                    
+
                     <!-- Social Links -->
                     <div class="contact__socials">
                         <a class="contact__social-link" href="#" aria-label="Website Link">
@@ -513,26 +534,30 @@
                         <div class="contact__form-grid">
                             <div class="contact__form-group">
                                 <label class="contact__form-label">Nama Lengkap</label>
-                                <input class="contact__form-input" placeholder="Masukkan nama Anda" type="text" required />
+                                <input class="contact__form-input" placeholder="Masukkan nama Anda" type="text"
+                                    required />
                             </div>
                             <div class="contact__form-group">
                                 <label class="contact__form-label">Email Aktif</label>
-                                <input class="contact__form-input" placeholder="contoh@email.com" type="email" required />
+                                <input class="contact__form-input" placeholder="contoh@email.com" type="email"
+                                    required />
                             </div>
                         </div>
                         <div class="contact__form-group">
                             <label class="contact__form-label">Subjek Pesan</label>
-                            <input class="contact__form-input" placeholder="Apa yang ingin Anda bicarakan?" type="text" required />
+                            <input class="contact__form-input" placeholder="Apa yang ingin Anda bicarakan?" type="text"
+                                required />
                         </div>
                         <div class="contact__form-group">
                             <label class="contact__form-label">Pesan Anda</label>
-                            <textarea class="contact__form-textarea" placeholder="Tuliskan pesan detail Anda di sini..." rows="5" required></textarea>
+                            <textarea class="contact__form-textarea" placeholder="Tuliskan pesan detail Anda di sini..."
+                                rows="5" required></textarea>
                         </div>
                         <button class="contact__form-button" type="submit">Kirim Pesan Sekarang</button>
                     </form>
                 </div>
             </div>
-            
+
             <!-- Decorative layout background blur circle -->
             <div class="contact__decor"></div>
         </section>
@@ -545,7 +570,8 @@
                 <div class="footer__brand">
                     <h2 class="footer__logo">Ahmad Amri</h2>
                     <p class="footer__tagline">
-                        Full Stack Web Developer yang mendedikasikan diri untuk kesempurnaan teknis dan pengalaman pengguna.
+                        Full Stack Web Developer yang mendedikasikan diri untuk kesempurnaan teknis dan pengalaman
+                        pengguna.
                     </p>
                     <div class="footer__socials">
                         <a class="footer__social-link" href="#" aria-label="Public Website">
@@ -559,7 +585,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="footer__links-wrapper">
                     <div class="footer__links-group">
                         <h4 class="footer__links-title">Quick Links</h4>
@@ -579,7 +605,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer__bottom">
                 <p class="footer__copyright">
                     &copy; 2026 Ahmad Khairul Amri. Built with Polished Technical Mastery.
@@ -597,4 +623,5 @@
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
