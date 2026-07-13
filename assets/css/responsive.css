@@ -80,6 +80,21 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .about__experience-card {
+    bottom: -32px;
+    right: -32px;
+    padding: 32px;
+    max-width: 240px;
+  }
+
+  .about__experience-title {
+    font-size: 2.25rem;
+  }
+
+  .about__experience-text {
+    font-size: 0.875rem;
+  }
+
   /* Portfolio Tabs */
   .portfolio__tabs {
     justify-content: center;
